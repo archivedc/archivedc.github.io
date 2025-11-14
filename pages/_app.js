@@ -1,4 +1,5 @@
-import '../styles/vanilla.scss'
+import '@csstools/normalize.css';
+import '../styles/app.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
